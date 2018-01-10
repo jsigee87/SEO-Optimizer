@@ -67,23 +67,21 @@ then
     echo Python already installed, or error has occured.
 fi; echo
 
-####################################################
+######################################################
 # install SEO scraper
-#####################################################
+######################################################
 echo Installing SEO scraper program; echo
 install_path=$(dirname "$0")
 cd $install_path
-mkdir SEO-scraper
-cd SEO-scraper
+mkdir SEO-Optimizer
+cd SEO-Optimizer
 git init
-git config core.sparseCheckout true
-git remote add origin https://github.com/jsigee87/practice.git
-echo '/tree/master/SEO-Searcher' > .git/info/sparse-checkout
+git remote add origin https://github.com/jsigee87/SEO-Optimizer.git
 git pull origin master
 
 ######################################################
 # install dependencies
-#####################################################
+######################################################
 echo Installing required libraries and dependencies; echo
 pip install requirements
 echo; echo Installation complete!; echo

@@ -1,10 +1,9 @@
-
+==========================================
     Installing the Program
---------------------------------
+==========================================
 
-================================
              Mac
-================================
+--------------------------------
 
 Place the file installationmac.sh inside the folder
 where you would like the program to be installed. 
@@ -20,16 +19,17 @@ computer:
 --Python3 (Should be preinstalled)
 --Required dependencies and libraries for the scraper
 
-================================
+
 Future installation files coming.
-================================
+---------------------------------
 
   Please email johnsigmon@gmail.com for questions, comments
   and concerns.
 
 
+===============================================
         Using the Program
--------------------------------------
+===============================================
 1.) Run search.sh
 2.) When prompted, input the following:
         Keyword
