@@ -1,0 +1,14 @@
+# temp files and tracking files
+*.swp
+*selfcheck.json
+
+# files created by the user
+log.txt
+target.html
+
+# virtual environment folders
+bin
+include
+lib
+
+
