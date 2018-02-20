@@ -46,14 +46,10 @@
     If your installation goes smoothly and you get a permission error when trying to launch the program, run the following command in the terminal:
 </p>
 
-<p>
-    ```
+```
         chmod u+rxw search.sh
-    ```
+```
+
+<p>
+    Please email johnsigmon@gmail.com with comments, suggestions, or concerns.
 </p>
-
-
-
-
-
-
