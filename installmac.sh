@@ -37,13 +37,13 @@ then
 fi; echo
 
 
-echo Type in your github username:
-read USERNAME; echo
-echo Type in your github email:
-read EMAIL; echo
+#echo Type in your github username:
+#read USERNAME; echo
+#echo Type in your github email:
+#read EMAIL; echo
 
-git config --global user.name "$USERNAME"
-git config --global user.email "$EMAIL"
+#git config --global user.name "$USERNAME"
+#git config --global user.email "$EMAIL"
 
 #####################################################
 # install curl if not installed
@@ -83,5 +83,5 @@ git pull origin master
 # install dependencies
 ######################################################
 echo Installing required libraries and dependencies; echo
-pip install requirements
+pip install -r requirements
 echo; echo Installation complete!; echo
