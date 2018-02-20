@@ -1,5 +1,6 @@
 #    Installing the Program
 ##           Mac
+#### How the installer works
 <p>
     Place the file installationmac.sh inside the folder
     where you would like the program to be installed. 
@@ -18,6 +19,16 @@
         <li>Required dependencies and libraries for the scraper</li>
     </ul>
 </p>
+
+#### Running the installer
+<ol>
+    <li>Navigate to the folder where you put installationmac.sh</li>
+    <li>Run the following command:</li>
+</ol>
+
+```
+    ./installationmac.sh
+```
 
 ### Future installation files coming.
 
