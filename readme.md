@@ -36,7 +36,10 @@
 
 <p>
    <ol>
-       <li>Run search.sh</li>
+       <li>From the install directory, run:
+          
+           ./search.sh
+   </li>
        <li> When prompted, input the following:
            <ul>
                <li>Keyword</li>
@@ -45,7 +48,8 @@
            </ul>
            <p>    
                 note- the keyword should be entered capitalized, and the program will search in a "case-insensitive" manner. the tags should be exactly as they appear in the html file, and separated only by spaces.
-           </p></li>
+           </p>
+       </li>
        <li>Your results are displayed on the screen, and if it does not already exist, a log file is created that shows the keyword, url, and date and time that the search was done. The results are NOT stored, the user must store them.
        </li>
    </ol>
